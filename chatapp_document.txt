@@ -1,0 +1,21 @@
+﻿Chat Application
+
+
+
+1. Install Node js.
+2. Install npm.
+3. Create  package.json file.
+4. Install the dependencies (Socket.io and Express).
+5. Create index.js file to set up the application.
+	5.1 Load the express module.
+	5.2 Create a socket.io instance attached to web server.
+	5.3 Create a route handler that gets called when user hits the page.
+	5.4 Create an event that will be fired when user types a message.
+	5.5 Make http server to listen to the specified port number.
+6. Create index.html file.
+	6.1  Create a form.
+	6.2  Add the style sheet. 
+	6.3  Load the socket-io client and connect it to namespace.
+	6.4  Write the necessary script. 
+7. Run the program.
+
